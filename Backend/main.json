@@ -1,0 +1,144 @@
+{
+  "Formules": [
+    {
+      "id": 1,
+      "name": "وجبة الدجاج الملكية",
+      "price": 99,
+      "description": "دجاجة كاملة، دغميرة، أرز، بطاطس مقلية، جوج بريوات وجوج خبيزات.",
+      "img": "../imgs/Formules/DjejMalaki.jpg"
+    },
+    {
+      "id": 2,
+      "name": "وجبة الدجاج المشوي",
+      "price": 75,
+      "description": "نصف دجاجة مشوية، بطاطس مقلية، سلطة وخبزة.",
+      "img": "../imgs/Formules/DjejMechwi.jpg"
+    },
+    {
+      "id": 3,
+      "name": "وجبة الدجاج العائلية",
+      "price": 120,
+      "description": "دجاجة كاملة، بطاطس مقلية، أرز، سلطة وأربع خبيزات.",
+      "img": "../imgs/Formules/DjejFamilial.jpg"
+    },
+    {
+      "id": 4,
+      "name": "وجبة نصف دجاجة",
+      "price": 55,
+      "description": "نصف دجاجة، دغميرة، بطاطس مقلية وخبزة.",
+      "img": "../imgs/Formules/NossDjej.jpg"
+    },
+    {
+      "id": 5,
+      "name": "وجبة ربع دجاجة",
+      "price": 35,
+      "description": "ربع دجاجة، بطاطس مقلية، سلطة وخبزة.",
+      "img": "../imgs/Formules/RobeDjej.jpg"
+    },
+    {
+      "id": 6,
+      "name": "وجبة دجاج وأرز",
+      "price": 45,
+      "description": "قطع الدجاج المشوي، أرز متبل وسلطة.",
+      "img": "../imgs/Formules/DjejRiz.jpg"
+    },
+    {
+      "id": 7,
+      "name": "وجبة دجاج وفريت",
+      "price": 40,
+      "description": "قطع الدجاج، بطاطس مقلية وصلصة.",
+      "img": "../imgs/Formules/DjejFrites.jpg"
+    },
+    {
+      "id": 8,
+      "name": "وجبة دجاج كريسبي",
+      "price": 45,
+      "description": "قطع دجاج كريسبي، بطاطس مقلية وصلصة.",
+      "img": "../imgs/Formules/ChickenCrispy.jpg"
+    },
+    {
+      "id": 9,
+      "name": "وجبة أجنحة الدجاج",
+      "price": 40,
+      "description": "أجنحة دجاج متبلة، بطاطس مقلية وصلصة.",
+      "img": "../imgs/Formules/Wings.jpg"
+    },
+    {
+      "id": 10,
+      "name": "وجبة ناجتس",
+      "price": 35,
+      "description": "ناجتس الدجاج، بطاطس مقلية وصلصة.",
+      "img": "../imgs/Formules/Nuggets.jpg"
+    },
+    {
+      "id": 11,
+      "name": "وجبة ساندويتش الدجاج",
+      "price": 30,
+      "description": "ساندويتش الدجاج مع البطاطس المقلية.",
+      "img": "../imgs/Formules/SandwichDjej.jpg"
+    },
+    {
+      "id": 12,
+      "name": "وجبة ساندويتش كريسبي",
+      "price": 35,
+      "description": "ساندويتش الدجاج المقرمش، بطاطس مقلية وصلصة.",
+      "img": "../imgs/Formules/SandwichCrispy.jpg"
+    },
+    {
+      "id": 13,
+      "name": "وجبة برغر الدجاج",
+      "price": 35,
+      "description": "برغر الدجاج، جبن، خضروات وبطاطس مقلية.",
+      "img": "../imgs/Formules/BurgerDjej.jpg"
+    },
+    {
+      "id": 14,
+      "name": "وجبة تاكوس الدجاج",
+      "price": 40,
+      "description": "تاكوس الدجاج مع البطاطس المقلية والصلصة.",
+      "img": "../imgs/Formules/TacosDjej.jpg"
+    },
+    {
+      "id": 15,
+      "name": "وجبة بانيني الدجاج",
+      "price": 30,
+      "description": "بانيني بالدجاج والجبن مع البطاطس المقلية.",
+      "img": "../imgs/Formules/PaniniDjej.jpg"
+    },
+    {
+      "id": 16,
+      "name": "وجبة باستيتشيو الدجاج",
+      "price": 40,
+      "description": "باستيتشيو بالدجاج والجبن والصلصة.",
+      "img": "../imgs/Formules/PasticcioDjej.jpg"
+    },
+    {
+      "id": 17,
+      "name": "وجبة الدجاج الحار",
+      "price": 45,
+      "description": "قطع الدجاج الحارة، بطاطس مقلية وصلصة حارة.",
+      "img": "../imgs/Formules/DjejHar.jpg"
+    },
+    {
+      "id": 18,
+      "name": "وجبة الدجاج بالجبن",
+      "price": 45,
+      "description": "قطع الدجاج بالجبن الذائب، بطاطس مقلية وصلصة.",
+      "img": "../imgs/Formules/DjejFromage.jpg"
+    },
+    {
+      "id": 19,
+      "name": "وجبة الأطفال",
+      "price": 30,
+      "description": "ناجتس الدجاج، بطاطس مقلية ومشروب.",
+      "img": "../imgs/Formules/MenuEnfant.jpg"
+    },
+    {
+      "id": 20,
+      "name": "وجبة الدجاج المميزة",
+      "price": 60,
+      "description": "قطع الدجاج المشوي، أرز، بطاطس مقلية، بريوات وصلصة.",
+      "img": "../imgs/Formules/DjejSpecial.jpg"
+    }
+  ]
+}

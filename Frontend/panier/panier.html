@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap">
+    <link rel="shortcut icon" href="../imgs/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./panier.css">
+    <title>السلة | Chicken Darna</title>
+</head>
+
+<body>
+    <header>
+        <button onclick="location.href='../menu/menu.html'" class="back-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <h2>السلة</h2>
+
+    </header>
+    <section>
+        <div class="error-message" id="errorMessage">
+            حدث خطأ أثناء تأكيد طلبكم.
+        </div>
+        <div class="confirm" id="confirm">
+            <div class="confirm-box">
+
+                <h3>تأكيد الطلب</h3>
+
+                <div id="commendes">
+
+                </div>
+                <div class="confirm-buttons">
+                    <button id="ok">تأكيد</button>
+                    <button id="no">إلغاء</button>
+                </div>
+
+            </div>
+        </div>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>الصورة</th>
+                    <th>الطبق</th>
+                    <th>السعر</th>
+                    <th>الكمية</th>
+                    <th>المجموع</th>
+                    <th>حذف</th>
+                </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        المجموع : <span id="total"></span>
+                    </td>
+                    <td colspan="3">
+                        <button class="confirme" onclick="confirme()">تأكيد الطلب</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <script src="./panier.js"></script>
+</body>
+
+</html>

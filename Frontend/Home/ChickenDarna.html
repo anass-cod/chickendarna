@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="../imgs/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chicken Darna | تشيكن دارنا</title>
+</head>
+
+<body>
+    <div id="error-container" class="error-container" role="alert">
+        <i class="fas fa-exclamation-circle"></i>
+        <p>حدث خطأ، يرجى المحاولة مرة أخرى.</p>
+        <button type="button" aria-label="إغلاق رسالة الخطأ" onclick="closeAlret()">
+            &times;
+        </button>
+    </div>
+    <section class="hero" id="home">
+        <header>
+
+            <img src="../imgs/Logo.png" alt="Chicken Darna">
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+            <ul id="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#menu">القائمة</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="content-alert">
+                <div class="alert" id="alert">
+                    تمت إضافة الطبق إلى السلة!
+                </div>
+            </div>
+        </header>
+        <div class="hero-content">
+            <h2>مرحباً بكم في</h2>
+            <h1>Chicken Darna</h1>
+            <h3>الطعم الذي يصنع الفرق!</h3>
+            <p>
+                اكتشفوا أشهى أطباق التاكوس والبيتزا والبانيني والساندويتشات وأكثر من ذلك بكثير!
+            </p>
+            <button onclick="location.href='#menu'">عرض القائمة</button>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="cards-container">
+            <div class="voirPlas">
+                <a href="../menu/menu.html">عرض جميع الأطباق</a>
+            </div>
+
+            <div id="cards" class="cards">
+                <div class="product-info" id="parent2">
+                    <img src="../imgs/Formules/DjejMechwi.jpg" alt="وجبة الدجاج المشوي">
+                    <h3>وجبة الدجاج المشوي</h3>
+                    <p>نصف دجاجة مشوية، بطاطس مقلية، سلطة وخبزة.</p>
+                    <span class="price"> 75 درهم</span>
+                    <button onclick="commender(2, 'Formules', undefined)"> اطلب الآن</button>
+                </div>
+
+                <div class="product-info" id="parent1">
+                    <img src="../imgs/Formules/DjejMalaki.jpg" alt="وجبة الدجاج الملكية">
+                    <h3>وجبة الدجاج الملكية</h3>
+                    <p>دجاجة كاملة، دغميرة، أرز، بطاطس مقلية، جوج بريوات وجوج خبيزات.</p>
+                    <span class="price">99 درهم</span>
+                    <button onclick="commender(1, 'Formules', undefined)">اطلب الآن</button>
+                </div>
+                <div class="product-info" id="parent5">
+                    <img src="../imgs/Formules/RobeDjej.jpg" alt="وجبة ربع دجاجة">
+                    <h3>وجبة ربع دجاجة</h3>
+                    <p>ربع دجاجة، بطاطس مقلية، سلطة وخبزة.</p>
+                    <span class="price">35 درهم</span>
+                    <button onclick="commender(5, 'Formules', undefined)">اطلب الآن</button>
+                </div>
+                <div class="product-info" id="parent7">
+                    <img src="../imgs/Formules/DjejFrites.jpg" alt="وجبة دجاج وفريت">
+                    <h3>وجبة دجاج وفريت</h3>
+                    <p>قطع الدجاج، بطاطس مقلية وصلصة.</p>
+                    <span class="price">40 درهم</span>
+                    <button onclick="commender(7, 'Formules', undefined)">اطلب الآن</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="about-image">
+                <img src="../imgs/Logo.png" alt="Chicken Darna">
+            </div>
+
+            <div class="about-content">
+
+                <h2>مرحباً بكم في Chicken Darna</h2>
+
+                <p>
+                    اكتشفوا قائمتنا المتنوعة من التاكوس والبيتزا والبانيني
+                    والباستيتشيو والبوكاديو والساندويتشات، تُحضَّر بعناية
+                    من مكونات لذيذة لتلبّي جميع رغباتكم.
+                </p>
+
+                <button onclick="location.href='#contact'" class="btn">
+                    تواصلوا معنا
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contact" class="contact">
+
+        <div class="contact-title">
+
+            <p>
+                هل لديكم سؤال أو طلب؟
+                نحن في خدمتكم.
+            </p>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="cardsContact">
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </div>
+
+                <h3>WhatsApp</h3>
+
+                <p>
+                    تواصلوا معنا مباشرة
+                    لتقديم طلبكم.
+                </p>
+
+                <button onclick="wathsape()" class="contact-btn">
+                    تواصل معنا
+                </button>
+
+            </div>
+
+
+            <!-- Instagram -->
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+                <h3>Instagram</h3>
+
+                <p>
+                    تابعونا على إنستغرام
+                    لمشاهدة أحدث عروضنا.
+                </p>
+
+                <button onclick="instagram()" class="contact-btn">
+                    تابعنا
+                </button>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <img src="../imgs/Logo.png" alt="Chicken Darna">
+
+                <p>
+                    الطعم دائماً في الموعد!
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>التنقل</h3>
+
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#menu">القائمة</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>اتصل بنا</h3>
+
+                <p>الهاتف : <a class="phone-link" href="tel:+212785336192" dir="ltr">07 85 33 61 92</a></p>
+                <p>أوقات العمل : <span dir="ltr">12:00 - 01:00</span></p>
+                <div class="social-icons">
+
+
+                    <a href="https://wa.me/212785336192" target="_blank" class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a target="_blank" href="https://www.facebook.com/Chickendarna" class="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/chickendarna/" target="_blank" class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة © 2026 Chicken Darna</p>
+        </div>
+
+    </footer>
+    <script src="./script.js"></script>
+    <script src="../Ensemble.js"></script>
+</body>
+
+</html>
